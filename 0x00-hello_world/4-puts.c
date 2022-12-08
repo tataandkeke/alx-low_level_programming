@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * this is to put
+ */
+
 int main(void)
 {
 	char str1[55];
