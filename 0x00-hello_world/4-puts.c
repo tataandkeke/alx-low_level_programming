@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- * this is to put
+ *main - Entry
+ *Return: return 0
  */
 
 int main(void)
