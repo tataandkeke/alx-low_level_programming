@@ -3,7 +3,7 @@
 /**
  * main - program starts
  * Description: prints the sizes of type
- * Return 0 always
+ * Return: 0 always
 */
 
 int main(void)
