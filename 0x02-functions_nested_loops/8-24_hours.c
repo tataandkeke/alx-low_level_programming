@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int hour2 = 0;
 	int min1 = 0;
 	int min2 = 0;
-	int lines = 1440;
+	int lines = 0;
 
 	while (lines < 1440)
 	{
