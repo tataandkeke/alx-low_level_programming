@@ -31,13 +31,11 @@ void jack_bauer(void)
 			min2 = 0;
 			min1++;
 		}
-
 		if (min1 > 5)
 		{
 			min1 = 0;
 			hour2++;
 		}
-
 		if (hour2 > 9)
 		{
 			hour2 = 0;
