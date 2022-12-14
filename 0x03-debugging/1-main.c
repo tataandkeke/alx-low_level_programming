@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - causes an infinite loop
  * description - this avoids loop
