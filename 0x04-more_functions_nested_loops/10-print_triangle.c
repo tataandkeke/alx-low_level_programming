@@ -16,7 +16,7 @@ void print_triangle(int size)
 	a = 0;
 
 	b = size;
-	
+
 	for (i = 0; i < size; i++)
 	{
 		a = a + 1;
