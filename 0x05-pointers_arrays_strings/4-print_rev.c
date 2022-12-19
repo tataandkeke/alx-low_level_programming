@@ -12,19 +12,16 @@
 void print_rev(char *s)
 {
 	int a;
-	int loop;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
 
 	}
 
-	loop = a;
-
-	for (; loop >= 0; loop--)
+	for (a--; a >= 0; a--)
 	{
-		printf("%c", s[loop]);
+		_putchar(s[a]);
 	}
 
-	printf("\n");
+	_putchar('\n');
 }
