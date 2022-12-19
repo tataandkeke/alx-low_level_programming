@@ -8,7 +8,6 @@
  * @s: input pointer
  * Return:  return 0
  */
-
 int _strlen(char *s)
 {
 	int a;
