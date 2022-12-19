@@ -29,5 +29,5 @@ void print_rev(char *s)
 	}
 
 	s[start] = '\0';
-	printf("%s\n". s);
+	printf("%s\n", s);
 }
