@@ -4,12 +4,12 @@
 
 
 /**
- * _puts2 - reset the value a pointer is refereing too
+ * puts2 - reset the value a pointer is refereing too
  * @str: input pointer
  * Return:  return 0
  */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int a;
 
