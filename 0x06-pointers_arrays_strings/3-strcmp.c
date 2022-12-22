@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
- * _strncpy - join two string together
+ * _strcmp - join two string together
  * @s1: input
  * @s2: input
  * Return: returns a pointer
  */
 
-char _strncat(char *s1, char *s2)
+char _strcmp(char *s1, char *s2)
 {
 	int a;
 
