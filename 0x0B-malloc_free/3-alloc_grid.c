@@ -31,6 +31,6 @@ int **alloc_grid(int width, int height)
 		}
 	}
 
-	ap = newarray;
+	ap = (int **)newarray;
 	return (ap);
 }
