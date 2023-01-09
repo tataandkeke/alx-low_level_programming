@@ -30,19 +30,25 @@ char *str_concat(char *s1, char *s2)
 	{
 		if (s1 == NULL)
 		{
-			s1[0] = '\0';
+			newstring[0] = '\0';
 		}
-		newstring[i] = s1[i];
+		else
+		{
+			newstring[i] = s1[i];
+		}
 	}
 
 	for (j = 0; j < str_len2; j++)
 	{
 		if (s2 == NULL)
 		{
-			s2[0] = '\0';
+			newstring[0] = '\0';
 		}
-		newstring[i] = s2[j];
-		i++;
+		else
+		{
+			newstring[i] = s2[j];
+			i++;
+		}
 	}
 	return (newstring);
 }
