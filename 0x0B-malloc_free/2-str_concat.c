@@ -14,6 +14,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int i;
 	int j;
+	int t;
 
 	int str_len1 = strlen(s1);
 	int str_len2 = strlen(s2);
@@ -47,7 +48,10 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 	
-	newstring = s1;
+	for (t = 0; t < total_len; t++)
+	{
+		newstring[t] = s1[t];
+	}
 
 	return (newstring);
 }
