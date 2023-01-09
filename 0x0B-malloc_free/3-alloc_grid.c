@@ -14,6 +14,7 @@ int **alloc_grid(int width, int height)
 {
 	int i;
 	int j;
+	int *ap;
 
 	int *newarray = (int *)malloc(sizeof(int) * width * height);
 
@@ -30,5 +31,6 @@ int **alloc_grid(int width, int height)
 		}
 	}
 
-	return (newarray);
+	ap = newarray;
+	return (ap);
 }
