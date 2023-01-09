@@ -11,6 +11,7 @@
 
 char *_strdup(char *str)
 {
+	int i;
 	int length = strlen(str);
 	char *newstring = (char *)malloc(sizeof(char) * length);
 
@@ -18,6 +19,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+
+	for (i = 0; i < length; i++)
+	{
+		newstring[i] = str[i];
+	}
+
 
 	return (newstring);
 }
