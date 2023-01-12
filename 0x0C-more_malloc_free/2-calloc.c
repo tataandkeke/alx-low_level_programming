@@ -13,15 +13,15 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
-	
-	int *newArray = malloc(size * nmemb);
 
-	if (newArray == NULL)
+	if (nmemb <= 0 || size <= 0)
 	{
 		return (NULL);
 	}
 
-	if (nmemb <= 0 || size <= 0)
+	int *newArray = malloc(nmemb * size);
+
+	if (newArray == NULL)
 	{
 		return (NULL);
 	}
