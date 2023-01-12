@@ -48,6 +48,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			newString[i] = s2[j];
 			i++;
 		}
+		newString[i] = '\0';
 	}
 	else if (n < str_lens2)
 	{
@@ -56,6 +57,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			newString[i] = s2[j];
 			i++;
 		}
+		newString[i] = '\0';
 	}
 
 	return (newString);
