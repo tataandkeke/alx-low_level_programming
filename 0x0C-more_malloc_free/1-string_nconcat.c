@@ -16,10 +16,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int str_lens1 = strlen(s1);
 	unsigned int str_lens2 = strlen(s2);
-	unsigned int total_len = str_lens1 + str_lens2;
 	unsigned int i, j;
 
-	char *newString = (char *)malloc(sizeof(char) * total_len);
+	char *newString = (char *)malloc(sizeof(char) * n + 1);
 
 	if (newString == NULL)
 	{
@@ -28,12 +27,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 	{
-		s1 = " ";
+		s1 = "";
 	}
 
 	if (s2 == NULL)
 	{
-		s2 = " ";
+		s2 = "";
 	}
 
 	for (i = 0; i < str_lens1; i++)
