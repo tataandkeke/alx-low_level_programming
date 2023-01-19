@@ -27,7 +27,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			}
 			else
 			{
-				printf("(nil)%s", separator);
+				printf("nil%s", separator);
 			}
 		}
 		else
@@ -38,7 +38,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			}
 			else
 			{
-				printf("(nil)");
+				printf("nil");
 			}
 		}
 	}
