@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
 /**
  * sum_them_all - sums all the parameters
@@ -12,13 +12,12 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list list;
+	unsigned int i, sum = 0;
 
-	if (n == 0 || n == NULL)
+	if (n == 0)
 		return (0);
 
 	va_start(list, n);
-
-	int i, sum = 0;
 
 	for (i = 0; i < n; i++)
 	{
