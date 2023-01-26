@@ -5,7 +5,7 @@
 
 /**
  * free_list - frees list
- * @h: list variable
+ * @head: list variable
  * Return: return 1 or 0
  */
 
