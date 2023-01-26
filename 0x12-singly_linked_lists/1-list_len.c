@@ -4,12 +4,12 @@
 #include "lists.h"
 
 /**
- * print_list - prints all element of list
+ * list_len - prints all element of list
  * @h: list variable
  * Return: return 1 or 0
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h);
 {
 	size_t count = 0;
 
